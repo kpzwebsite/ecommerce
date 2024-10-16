@@ -104,6 +104,7 @@ h1{
 .btn{
   padding: 9px 30px;
   font-weight: 500;
+  border-radius: 0;
 }
 .btn.btn-secondary{
   background: var(--text-white) !important;
