@@ -100,6 +100,48 @@ h1{
   color:var(--text-white);
   border-bottom: 1px solid var(--border-color);
 }
+.mySwiper-4 .swiper-slide{
+  background-color: var(--text-dark);
+  color: var(--text-white);
+  min-height: 400px;
+  text-align: center;
+}
+.client-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.client-box span{
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: block;
+}
+.client-box li svg {
+  fill: #FFCC4A;
+  stroke: #FFB800;
+  margin-right: 8px;
+}
+.client-bx{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 647px;
+  margin-bottom: 40px;
+}
+.swiper-pagination-bullet{
+  background-color: rgba(255,255,255,0.5);
+}
+.swiper-pagination-bullet-active{
+  background-color: var(--text-white);
+}
+.media-box img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
 /* coustome-css-btn-strat */
 .btn{
   padding: 9px 30px;
